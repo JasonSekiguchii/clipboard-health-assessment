@@ -218,3 +218,45 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local assessment data and secrets
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+.env.*
+
+# Credentials and authentication caches
+.netrc
+.git-credentials
+.npmrc
+.aws/
+.azure/
+.config/gcloud/
+.auth/
+.codex/auth.json
+.streamlit/secrets.*
+credentials*.json
+client_secret*.json
+token*.json
+*.pem
+*.key
+
+# Local databases, browser captures and demonstration recordings
+*.db
+*.db-*
+*.har
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+recordings/
+
+# Internal assessment evidence; publish the minimal submission audit instead
+/docs/discovery.md
+/docs/reconciliation.md
+/docs/final_reconciliation.md
+/docs/findlay_incident.md
+/docs/demo_rejection_audit.md
+/docs/phase*.md
